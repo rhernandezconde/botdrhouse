@@ -6,7 +6,7 @@ from datetime import datetime
 import requests  # Para enviar mensajes a Telegram
 
 # Configura el exchange (en este caso, Binance)
-exchange = ccxt.binance()
+exchange = ccxt.binanceus()
 
 # Lista de criptomonedas a analizar
 symbols = [
