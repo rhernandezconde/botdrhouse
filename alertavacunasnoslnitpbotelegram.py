@@ -24,7 +24,7 @@ symbols = [
 ]
 
 # Configuración del bot de Telegram
-TELEGRAM_BOT_TOKEN = "7700998851:AAFWTOULwt7zjG93iC9j3Ae2ZWyCq6C-P68"  # Reemplaza con tu token de bot
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")  # Reemplaza con tu token de bot
 TELEGRAM_CHAT_ID = '-1002402110104'  # Reemplaza con tu chat ID
 
 # Función para enviar mensajes a Telegram
